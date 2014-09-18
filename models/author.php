@@ -28,6 +28,7 @@ class JSON_API_Author {
     $this->set_value('nickname', 'nickname');
     $this->set_value('url', 'user_url');
     $this->set_value('description', 'description');
+	$this->set_value('image', 'author_image');
     $this->set_author_meta();
     //$this->raw = get_userdata($this->id);
   }
